@@ -2173,6 +2173,7 @@
 					if (!o.ok) b.classList.add('wrong')
 					feedback(o.ok, r.q[0], r.u)
 				}))
+				
 			} else {
 				const st = { ans: [], tiles: [], locked: false }
 				const ids = r.w.map((_, i) => i); let order = shuffle(ids)
@@ -2221,5 +2222,4 @@
 		go(0);
 	</script>
 </body>
-
 </html>
